@@ -1,31 +1,31 @@
 {
   "tareas": [
     {
-      "id": 5,
+      "id": "5",
       "tarea": "tarea nro cinco"
     },
     {
-      "id": 4,
+      "id": "4",
       "tarea": "aaa"
     },
     {
-      "id": 1,
+      "id": "1",
       "tarea": "Tarea nro uno"
     },
     {
-      "id": 2,
+      "id": "2",
       "tarea": "Tarea nro dos"
     },
     {
-      "id": 2,
+      "id": "2",
       "tarea": "Tarea nro dos"
     },
     {
-      "id": 6,
+      "id": "6",
       "tarea": "tarea 6"
     },
     {
-      "id": 10,
+      "id": "10",
       "tarea": "Tarea a pleno"
     }
   ]

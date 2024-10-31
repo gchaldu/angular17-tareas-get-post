@@ -1,6 +1,6 @@
 <form [formGroup]="formulario" (ngSubmit)="addTarea()">
   <label for="">Id: </label>
-  <input type="number" formControlName="id" name="id" id="id" />
+  <input type="text" formControlName="id" name="id" id="id" />
   @if (formulario.controls['id'].getError('required') && submit) {
   <div class="error">Error required</div>
   }
