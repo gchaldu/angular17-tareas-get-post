@@ -1,0 +1,17 @@
+<form [formGroup]="formulario" (ngSubmit)="addTarea()">
+  <label for="">Id: </label>
+  <input type="number" formControlName="id" name="id" id="id" />
+  @if (formulario.controls['id'].getError('required') && submit) {
+  <div class="error">Error required</div>
+  }
+
+  <label for="">Tarea: </label>
+  <input type="text" formControlName="tarea" name="id" />
+  @if (formulario.controls['tarea'].getError('required') && submit) {
+  <div class="error">Error required</div>
+  } @if (formulario.controls['tarea'].getError('minlength') && submit) {
+  <div class="error">Min 3 characters</div>
+  }
+
+  <button>Agregar</button>
+</form>

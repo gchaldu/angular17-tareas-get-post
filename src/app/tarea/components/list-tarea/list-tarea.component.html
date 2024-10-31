@@ -1,0 +1,11 @@
+<section>
+  <h2>Añadir Tarea</h2>
+  <app-add-tarea (emitirTarea)="recibirTareaHijo($event)"></app-add-tarea>
+  <hr />
+  <h2>Lista de Tareas</h2>
+  <ul>
+    @for (tarea of listaTareas; track $index) {
+    <li>Id: {{ tarea.id }} - Tarea: {{ tarea.tarea }}</li>
+    }
+  </ul>
+</section>
